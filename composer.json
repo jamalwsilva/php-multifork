@@ -1,0 +1,21 @@
+{
+    "name": "gambiters/php-multifork",
+    "description": "A helper class to easily make a pool of tasks and define how many process forks will execute them.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Philippe Vanzin Moreira",
+            "email": "pvanzinmoreira@gmail.com"
+        },
+        {
+            "name": "Jair Barbosa",
+            "email": "jsbjair@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MultiFork\\": "./src/"
+        }
+    }
+}
